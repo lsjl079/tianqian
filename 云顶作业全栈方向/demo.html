@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>云顶全栈方向第一周作业</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        li {
+            list-style: none;
+        }
+        .nov ul li {
+            list-style: none;
+        }
+        a {
+            display: inline-block;
+            position: absolute;
+            top: 3%;
+            text-decoration: none;
+            color: white;
+            font-size: 22px;
+        }
+        .one {
+            left: 20%;
+        }
+        .two {
+            left: 30%;
+        }
+        .three {
+            left: 65%;
+        }
+        .four {
+            left: 75%;
+        }
+        .t {
+            float: left;
+        }
+
+        a:hover {
+            color: gray;
+        }
+        .box {
+            width: 1920px;
+            height: 5600px;
+            /* border: 1px solid pink; */
+            margin: 0px auto;
+        }
+        .boxb {
+            width: 1920px;
+            height: 30px;
+            background-color: #fff;
+        }
+        .hpicture {
+            width: 1920px;
+            height: 814px;
+        }
+
+        .fpicture {
+            width: 1920px;
+            height: 982px;
+        }
+
+        .boxh {
+            width: 1920px;
+            background-color: #eae7e8;
+            height: 450px;
+            margin-top: 30px;
+        }
+
+        .tu {
+            position: absolute;
+            float: left;
+        }
+        .boxa {
+            width: 1920px;
+            height: 580px;
+            background-color: #fff;
+        }
+
+        .boxtu {
+            float: left;
+            width: 425px;
+            height: 507px;
+            /* border: 1px solid yellow; */
+            margin-left: 412px;
+            margin-top: 40px;
+        }
+
+        .boxtext {
+            position: relative;
+            float: right;
+            width: 666px;
+            height: 445px;
+            /* border: 1px solid yellowgreen; */
+            margin-right: 345px;
+            margin-top: 40px;
+            background-color: #fff;
+            padding: 30px;
+            box-shadow: 5px 5px 15px #b8b8b8;
+        }
+
+        .boxf {
+            width: 1920px;
+            height: 395px;
+            background-color: #eae7e8;
+        }
+
+        .boxs {
+            width: 1920px;
+            height: 350px;
+            background-color: #6f6d6d;
+            padding-top: 80px;
+        }
+
+        .boxj {
+            width: 1920px;
+            background-color: #fff;
+            height: 900px;
+        }
+
+        .boxe {
+            height: 250px;
+            width: 1920px;
+            background-color: #58544b;
+            padding-top: 70px;
+        }
+
+        .boxn {
+            height: 90px;
+            width: 190px;
+            background-color: #fff;
+            padding: 222px 865px 30px 865px;
+             /* border: 1px solid red;  */
+        }
+
+        .boxq {
+            height: 435px;
+            width: 880px;
+            background-color: #fff;
+            margin: auto;
+            /* border: 1px solid pink;  */
+        }
+
+        .boxo {
+            height: 60px;
+            width: 205px;
+            background-color: #e8024d;
+        }
+
+        .zi {
+            font: italic 700 25px "宋体";
+            color: #fff;
+            padding-top: 16px;
+            text-align: center;
+        }
+
+        .redpen {
+            height: 220px;
+            margin-left: 363px;
+        }
+
+        .ypen {
+            height: 170px;
+            margin-left: 363px;
+        }
+        .boxiw {
+            width: 880px;
+            height: 440px;
+            margin-left: 540px;
+            margin-right: 503px;
+            border: 1px solid blue;
+            box-shadow: 5px 5px 15px #b8b8b8;
+        }
+        .boxi {
+            width: 840px;
+            height: 400px;
+            background-color: #fff;
+            /* border: 1px solid rgb(170, 235, 238); */
+            padding: 20px;
+        }
+
+        .btou {
+            font-size: 55px;
+            margin-left: 50px;
+        }
+
+        .neirong {
+            font-size: 20px;
+            line-height: 33px;
+            margin: 70px 50px 50px 50px;
+        }
+
+        .boxbo {
+            position: relative;
+            height: 240px;
+            width: 370px;
+            background-color: #eb4a7f;
+            margin-left: 530px;
+        }
+
+        .ht {
+            float: right;
+            padding-top: 0px;
+        }
+
+        .boxzj {
+            width: 1920px;
+            height: 46px;
+            /* border: 1px solid black; */
+            margin-top: 100px;
+        }
+
+        .hz {
+            font-size: 45px;
+            text-align: center;
+        }
+
+        .boxdazj {
+            width: 1200px;
+            height: 236px;
+            /* border: 1px solid rgb(170, 235, 238); */
+            margin: 0px 345px 180px 411px;
+        }
+
+        .boxaz {
+            float: left;
+            width: 390px;
+            height: 236px;
+            /* border: 1px solid green; */
+            margin-top: 110px;
+        }
+
+        .nr {
+            margin-top: 37px;
+            margin-left: 24px;
+            margin-right: 5px;
+            font-size: 18px;
+        }
+
+        .boxhz {
+            width: 815px;
+            height: 310px;
+            background-color: #fff;
+            margin: auto;
+            margin-top: 40px;
+            /* border: 1px solid peru; */
+            box-shadow: 5px 5px 15px #b8b8b8;
+        }
+
+        .ts {
+            color: #fff;
+            text-align: center;
+            margin-top: 18px;
+        }
+
+        .is {
+            color: #fff;
+            text-align: center;
+            font-size: 29px;
+        }
+
+        .xhg {
+            height: 60px;
+            width: 205px;
+            margin-bottom: 30px;
+            background-color: #4a3e42;
+            margin: auto; 
+        }
+        .hh {
+            font: italic 700 25px "宋体";
+            color: #fff;
+            padding-top: 16px;
+            text-align: center;
+        }
+
+        .wb {
+            font-size: 17px;
+            text-align: center;
+            margin-top: 15px;
+            margin-left: 144px;
+            margin-right: 142px;
+        }
+        .xu {
+            width: 815px;
+            height: 80.44px;
+        }
+        .ps {
+            width: 884px;
+            height: 665px;
+            /* border: 1px solid palegreen; */
+            margin-left: 520px;
+            margin-right: 525px;
+            margin-top: 161px;
+        }
+        .boxhui {
+            height: 60px;
+            width: 205px;
+            background-color: #4a3e42;
+            margin-top: 78px;
+            margin-left: 845px;
+        }
+        .tp {
+            float: left;
+            width: 378px;
+            height: 392px;
+            /* border: 1px solid forestgreen; */
+        }
+        .tzt {
+            width: 425px;
+            height: 116px;
+            font-size: 19px;
+            margin-left: 18px;
+            margin-top: 8px;
+        }
+        .zt {
+            width: 452px;
+            height: 116px;
+            /* border: 1px solid royalblue; */
+        }
+        .ztz {
+            width: 452px;
+            height: 116px;
+            /* border: 1px solid royalblue; */
+            margin-top: 17px;
+            margin-bottom: 17px;
+        }
+        .tz {
+            float: left;
+            width: 452px;
+            height: 392px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="nov">
+            <ul>
+                <li><a class="one" href="#">新品推荐</a></li>
+                <li><a class="two" href="#">在线购买产品</a></li>
+                <li><a class="three" href="#">企业礼包</a></li>
+                <li><a class="four" href="#">品牌介绍</a></li>
+            </ul>
+        </div>
+        <div>
+            <img src="images/head.png" class="hpicture">
+        </div>
+        <div class="boxb"></div>
+        <div>
+            <div class="boxf">
+                <div class="boxtu">
+                    <img src="images/tu.png" class="ht">
+                </div>
+                <div class="tu boxtext">
+                    <h1 class="btou">Welcome&nbsp;to&nbsp;Lamy</h1>
+                    <p class="neirong">
+                        德国书写工具品牌LAMY始创人C•Josef Lamy于1930年在海德
+                        堡创立了欧瑟斯墨水笔制造厂.1952年，崭露头角的LAMY 流线
+                        型墨水笔，震撼问世, 彰显公司的创新敏锐触觉。1966年终于打
+                    </p>
+
+                    <p class="neirong">
+                        造出令人耳目一新的现代经典之作-LAMY 2000系列。产品撮合
+                        了聚碳酸酯与不锈钢材质，绝妙的配搭，使之从芸芸众生的书写
+                        工具中脱颖而出，时至今日，依然在市场具有影响力。
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="boxbo">
+        </div>
+        <div class="boxa">
+            <div class="boxzj">
+                <p class="hz">
+                    <strong>L&nbsp;A&nbsp;M&nbsp;Y&nbsp;</strong>各系列
+                </p>
+            </div>
+            <div class="boxdazj">
+                <div class="boxaz">
+                    <h1>【恒星系列 墨水笔 】</h1>
+                    <p class="nr">
+                        LAMY 恒星系列延续了 LAMY
+                        的时尚造型，打造出锦上添花的极致品质
+                        。此系列全部均由氧化
+                        独特的凹陷式笔握以及弹性铜线笔夹
+                        富的颜色让 LAMY 恒星系列突破了传统
+                        散发着无限的青春魅力。
+                    </p>
+                </div>
+                <div class="boxaz">
+                    <h1>【狩猎系列限量色墨水笔】</h1>
+                    <p class="nr">
+                        色彩丰富，颜色亮丽，不仅是可以作为书
+                        写工具，同样是很好的装饰品
+                        宽大的笔夹设计，可随时夹在包带、牛仔裤、
+                        T恤袖口上，让您感受创意方便的携带方式
+                        笔身通体材质采用车用强力ABS材料
+                    </p>
+                </div>
+                <div class="boxaz">
+                    <h1>【喜悦系列美术笔 】</h1>
+                    <p class="nr">
+                        用以绘图、写艺术字、艺术签名
+                        扁平状的笔尖设计，适合书写艺术字
+                        立体感极佳.1、1.5、1.9三种笔尖可供选择
+                        ，可书写粗细不等的立体字，让您随时
+                        感受变化的乐趣复古的笔杆设计
+                        ，经典又与众不同，显示出独特的欣赏品味
+                    </p>
+                </div>
+            </div>
+            <div class="xhg">
+                <div class="hh">了解详情&gt&gt</div>
+            </div>
+        </div>
+        <div class="boxf">
+            <div><img src="images/redpen.png" class="redpen"></div>
+            <div><img src="images/ypen.png" class="ypen"></div>
+        </div>
+        <div class="boxs">
+            <p class="is">Form Germany</h1>
+            <h1 class="ts">What people are saying?</h1>
+            <div class="boxhz">
+                <div class="rt">
+                    <img src="images/rentou.png" alt="">
+                </div>
+                <p class="wb">
+                    使用令人难以置信的生产技术和坚持极高水平的精准要求，仅使用一种材质，也足以成就出这款永恒的设计。产品本身是体现不同加工程序和制造工艺。手工打磨的亚光拉丝表面充分体现了品牌对细节的注重。
+                </p>
+                <div class="xu">
+                    <img src="images/xux.png">
+                </div>
+            </div>
+
+        </div>
+        <div class="boxj">
+            <div class="ps">
+                <img src="images/products.png">
+            </div>
+            <div class="boxhui">
+                <div class="zi">戳我速购&gt&gt</div>
+            </div>
+        </div>
+        <div class="boxe">
+            <div class="boxiw" >
+                <div class="boxi">
+                    <div class="tp">
+                        <div><img src="images/tpro.png"></div>
+                    </div>
+                    <div class="tz">
+                        <div class="zt">
+                            <p class="tzt">
+                            <strong>you make millions of decisions that is
+                            mean nothing，and then one day your
+                            order takes out life.</strong>
+                            </p>
+                        </div>
+                        <div class="ztz">
+                            <p class="tzt">
+                            <strong>It's sad when you realize you aren't
+                                is as important to someone as you
+                                thought you were.</strong>
+                            </p>
+                        </div>
+                        <div class="zt">
+                            <p class="tzt">
+                                <strong>Love is unequal, so don't count how
+                                much one contributes, and which is
+                                more active.</strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="boxn">
+            <div class="boxo">
+                <div class="zi">新品推荐&gt&gt</div>
+            </div>
+        </div>
+        <div>
+            <img src="images/foot.png" class="fpicture">
+        </div>
+
+    </div>
+
+</body>
+
+</html>
