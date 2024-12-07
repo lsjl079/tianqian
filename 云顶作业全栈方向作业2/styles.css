@@ -1,0 +1,213 @@
+    .box {
+        width: 603px;
+        height: 340px;
+        /* border: 1px solid palegreen; */
+        margin: 100px auto;
+        /* background-color: #f8fdfd; */
+    }
+
+    .wk {
+        width: 603px;
+        height: 333px;
+        border: 4px solid #c0daee;
+        margin: 14px auto;
+        border-radius: 20px;
+        background: linear-gradient(to bottom, #fff, #f4fcfd);
+        box-shadow: 1px 1px 30px #c0e3f2;
+    }
+
+    .hbox {
+        display: flex;
+        width: 603px;
+        height: 29px;
+        margin-bottom: 36px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .zb {
+        width: 102px;
+        height: 29px;
+        /* border:1px solid palevioletred; */
+        margin-left: 18px;
+        margin-top: 16px;
+    }
+
+    .loge {
+        width: 28px;
+        height: 29px;
+        /* border: 1px solid red; */
+        vertical-align: middle;
+    }
+
+    .zi {
+        width: 74px;
+        font-size: 16px;
+        /* border: 1px solid red; */
+    }
+
+    .yb {
+        width: 24px;
+        height: 24px;
+        /* border:1px solid palevioletred; */
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+    .nov {
+        display: flex;
+        width: 506px;
+        height: 32px;
+        background-color: #f7fdff;
+        margin: 20px 48px 40px 48px;
+        justify-content: space-around;
+    }
+
+    .span,
+    a {
+        text-decoration: none;
+    }
+
+    .zie {
+        font-size: 10px;
+        line-height: 32px;
+    }
+
+    .xbox {
+        display: flex;
+        width: 600px;
+        height: 145px;
+        /* border: 1px solid saddlebrown; */
+        justify-content: space-between;
+    }
+
+    .ziy {
+        font-size: 16px;
+        margin-left: 24px;
+        margin-right: 399px;
+    }
+
+    .zs {
+        width: 448px;
+        height: 141px;
+        /* background-color: blue;  */
+        margin: 4px 8px 4px 25px;
+    }
+
+    .sjx {
+        width: 448px;
+        height: 40px;
+        /* border: 1px solid pink; */
+        box-shadow: 1px 1px 5px #c1c4c5;
+        border-radius: 10px;
+        margin-bottom: 8px;
+        background: linear-gradient(to right, #e6f9fc, #e9fafc, #fff);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .lf {
+        width: 120px;
+        height: 26px;
+        padding-top: 8px;
+        margin-left: 16px;
+        margin-bottom: 9px;
+        /* border: 1px solid rebeccapurple; */
+    }
+
+    .get {
+        width: 27px;
+        height: 26px;
+        /* border: 1px solid green; */
+        vertical-align: middle;
+    }
+
+    .nr {
+        padding-left: 14px;
+        font-size: 8px;
+        color: #c4cfd0;
+    }
+
+    .zyb {
+        width: 198px;
+        height: 8px;
+        /* border: 1px solid royalblue; */
+        margin: 8px 0px 19px;
+    }
+
+    .zis1 {
+        padding-right: 30px;
+        color: #adadad;
+        font-size: 8px;
+    }
+
+    .zis2 {
+        color: #adadad;
+        font-size: 8px;
+        padding-right: 25px;
+    }
+
+    .date {
+        color: #9b9b9b;
+        font-size: 8px;
+        padding-right: 64px;
+    }
+
+    .zcb {
+        width: 42px;
+        height: 50px;
+        margin-left: 20px;
+        /* border: 1px solid lightskyblue; */
+    }
+
+    .cb {
+        position: relative;
+        width: 42px;
+        height: 24px;
+        /* border: 1px solid lightgoldenrodyellow; */
+        background-color: #e6f9fc;
+        border-radius: 5px;
+    }
+
+    .cb1 {
+        width: 42px;
+        height: 24px;
+        /* border: 1px solid lightgoldenrodyellow; */
+        background-color: #bef6ff;
+        border-radius: 5px;
+    }
+
+    .yxj {
+        width: 30px;
+        height: 14px;
+        /* border: 1px solid greenyellow; */
+        border-radius: 5px;
+        background-color: #39c8d2;
+        margin-right: 26px;
+        margin-top: 126px;
+    }
+
+    .yx {
+        font-size: 8px;
+        margin-top: 2px;
+        margin-left: 3px;
+    }
+
+    .jiantou {
+        position: absolute;
+        top: 5px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 6px;
+        border-color: transparent transparent transparent #d0f0f4;
+        font-size: 0;
+        line-height: 0;
+    }
+
+    .foot {
+        width: 603px;
+        height: 21px;
+        margin-bottom: 6px;
+    }
